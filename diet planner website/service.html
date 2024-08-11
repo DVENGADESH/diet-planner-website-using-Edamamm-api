@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Restaurant</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .dish-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .dish {
+            text-align: center;
+        }
+        .dish img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .order-button {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: black;
+            color: yellow;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Online Restaurant</h1>
+    <div class="dish-container">
+        <div class="dish">
+            <img src="F:\Visual studio Code\restaruent\chappathi.jpeg" alt="chappathi">
+            <button class="order-button" onclick="confirmOrder()">Order Now</button>
+        </div>
+        <div class="dish">
+            <img src="F:\Visual studio Code\restaruent\Cheesy veg burgers.jpg" alt="veg burgers">
+            <button class="order-button" onclick="confirmOrder()">Order Now</button>
+        </div>
+        <div class="dish">
+            <img src="F:\Visual studio Code\restaruent\Five-veg lasagne.jpeg" alt="Five-veg lasagne">
+            <button class="order-button" onclick="confirmOrder()">Order Now</button>
+        </div>
+        <div class="dish">
+            <img src="F:\Visual studio Code\restaruent\pasta.jpeg" alt="pasta">
+            <button class="order-button" onclick="confirmOrder()">Order Now</button>
+        </div>
+        <div class="dish">
+            <img src="F:\Visual studio Code\restaruent\Seven-veg tagine.jpeg" alt="Seven-veg tagine">
+            <button class="order-button" onclick="confirmOrder()">Order Now</button>
+        </div>
+        <div class="dish">
+            <img src="F:\Visual studio Code\restaruent\Summer veg tostadas.jpg" alt="veg tostadas">
+            <button class="order-button" onclick="confirmOrder()">Order Now</button>
+        </div>
+        <div class="dish">
+            <img src="F:\Visual studio Code\restaruent\tomato img.jpeg" alt="tomato img">
+            <button class="order-button" onclick="confirmOrder()">Order Now</button>
+        </div>
+        <div class="dish">
+            <img src="F:\Visual studio Code\restaruent\fish.jpeg" alt="fish">
+            <button class="order-button" onclick="confirmOrder()">Order Now</button>
+        
+        </div>
+        <div class="dish">
+            <img src="F:\Visual studio Code\restaruent\chicken.jpeg" alt="chicken">
+            <button class="order-button" onclick="confirmOrder()">Order Now</button>
+        </div>
+    </div>
+    <script>
+        function confirmOrder() {
+            alert("Order Confirmed");
+        }
+    </script>
+</body>
+</html>
