@@ -9,8 +9,8 @@ document.getElementById('dietForm').addEventListener('submit', function(event) {
     const meals = document.getElementById('meals').value;
 
     // Edamam API details
-    const appId = '498d60af';
-    const appKey = '4827c3c584d9540949595ebc0e85ccc4';
+    const appId = 'Enter ur id';
+    const appKey = 'Enter ur appi Key';
 
     // Example API call (modify according to your needs)
     const url = `https://api.edamam.com/search?q=${diet}&app_id=${appId}&app_key=${appKey}`;
